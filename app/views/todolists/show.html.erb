@@ -1,0 +1,10 @@
+<p>
+title:
+<%= @list.title %>
+</p>
+
+<p>
+body:
+<%= @list.body %>
+</p>
+<%= link_to "edit",edit_todolist_path(@list) %>|<%= link_to "back",todolists_path %>
